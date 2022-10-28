@@ -1,12 +1,12 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Cloud3 Docs',
+  title: 'Cloud3 Documentation',
   tagline: 'Store in IPFS W3Bucket, Decentralized, Guaranteed & Alive.',
   url: 'https://docs.cloud3.cc',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.svg',
+  favicon: 'img/fav.png',
   organizationName: 'decooio', // Usually your GitHub org/user name.
   projectName: 'cloud3-docs', // Usually your repo name.
   themeConfig: {

@@ -30,5 +30,10 @@ module.exports = {
       id: 'overview',
       label: 'Overview'
     },
+    {
+      type: 'doc',
+      id: 'w3auth',
+      label: 'W3Auth Token'
+    },
   ]
 };
