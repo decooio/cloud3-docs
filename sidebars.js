@@ -35,5 +35,17 @@ module.exports = {
       id: 'w3auth',
       label: 'W3Auth Token'
     },
+    {
+      type: 'category',
+      label: 'W3Bucket',
+      collapsed: false,
+      items: [
+        {
+          type: 'doc',
+          id: 'w3bucket/nft',
+          label: 'W3Bucket NFT'
+        },
+      ]
+    }
   ]
 };
