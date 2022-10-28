@@ -6,11 +6,17 @@ hide_table_of_contents: false
 
 ## Introduction
 
-Each W3Bucket is an [ERC721](https://eips.ethereum.org/EIPS/eip-721) NFT token that could be minted and traded on NFT marketplaces like [OpenSea](https://opensea.io).
+Each W3Bucket is an [ERC721](https://eips.ethereum.org/EIPS/eip-721) NFT token (with symbol name *W3BKT*) that could be minted and traded on NFT marketplaces like [OpenSea](https://opensea.io).
 
+W3Buckets are fully bound to *W3BKT NFTs*:
 
+- Essential information of W3Buckets are put in *W3BKT NFTs* metadata, like capacity, file history, etc
+- Only a *W3BKT NFT* owner could upload files or folders to the bound W3Bucket
+- When a *W3BKT NFT* is transferred to another user, the W3Bucket data contents are also transferred
 
-## NFT Metadata
+## W3BKT NFT Metadata
+
+Below is a sample of *W3BKT NFT* metadata:
 
 ```json
 {
@@ -33,13 +39,23 @@ Each W3Bucket is an [ERC721](https://eips.ethereum.org/EIPS/eip-721) NFT token t
       "value": "1024"
     }
   ],
-	"dStorage": {
-		"platform": "Crust",
-		"description": "Crust Network, the Incentive Layer of IPFS",
-		"persistence_mechanism": "contract-based",
-	  "challenge_mechanism": "mpow",
-		"consensus": "gpos",
-		"dstorage_note": "0x466ab180124de1718d30cd2e018e7fe013a07c4860674110ccd13e97eb31ae16"
-	}
+  "dStorage": {
+    "platform": "Crust",
+    "description": "Crust Network, the Incentive Layer of IPFS",
+    "persistence_mechanism": "contract-based",
+    "challenge_mechanism": "mpow",
+    "consensus": "gpos",
+    "dstorage_note": "0x466ab180124de1718d30cd2e018e7fe013a07c4860674110ccd13e97eb31ae16"
+  }
 }
 ```
+
+where:
+
+- `image`: Asset image of the NFT, which are stored on IPFS and incentived by Crust Network
+- `external_url`: External url to view decentralized storage state of the image file on IPFS
+- `file_history`: An [IPNS](https://docs.ipfs.tech/concepts/ipns) URL which resolves to the CID of the bucket's *File History* file
+- `attributes`: An array of attribute key/value pairs of the bucket, like its capacity, edition id, etc
+- `dStorage`: [EIP-5625: NFT Metadata JSON Schema dStorage Extension](https://eips.ethereum.org/EIPS/eip-5625) implementation, which provides information about how the NFT image data are stored.
+  - `platform`: All *W3BKT NFT* images are stored on Crust Platform
+  - `dstorage_note`: Crust place_order transaction id of the corresponding NFT image

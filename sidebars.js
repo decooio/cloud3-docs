@@ -43,7 +43,7 @@ module.exports = {
         {
           type: 'doc',
           id: 'w3bucket/nft',
-          label: 'W3Bucket NFT'
+          label: 'W3BKT NFT'
         },
       ]
     }
