@@ -45,6 +45,11 @@ module.exports = {
           id: 'w3bucket/nft',
           label: 'W3BKT NFT'
         },
+        {
+          type: 'doc',
+          id: 'w3bucket/api',
+          label: 'Uploading with API'
+        },
       ]
     }
   ]
