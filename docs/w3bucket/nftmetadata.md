@@ -6,6 +6,8 @@ hide_table_of_contents: false
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+## Background  
+
 This is a detailed explanation on the `metadata` of the W3Bucket NFT.  
 
 This topic is worth mentioning because the metadata of W3Bucket NFTs contain essential information about the buckets, including the IPNS name of the bucket, File History, Bucket Type & Size (Capacity), and NFT image. All of the infotmation in the metadata is **immutable**.
