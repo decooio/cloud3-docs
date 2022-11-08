@@ -27,13 +27,8 @@ module.exports = {
   mySidebar: [
     {
       type: 'doc',
-      id: 'overview',
-      label: 'Overview'
-    },
-    {
-      type: 'doc',
-      id: 'w3auth',
-      label: 'W3Auth Token'
+      id: 'cloud3overview',
+      label: 'Cloud3 Overview'
     },
     {
       type: 'category',
@@ -42,15 +37,30 @@ module.exports = {
       items: [
         {
           type: 'doc',
-          id: 'w3bucket/nft',
-          label: 'W3BKT NFT'
+          id: 'w3bucket/aboutnft',
+          label: 'About W3Bucket NFT'
         },
         {
           type: 'doc',
-          id: 'w3bucket/api',
-          label: 'Uploading with API'
+          id: 'w3bucket/nftmetadata',
+          label: 'NFT Metadata'
+        },
+        {
+          type: 'doc',
+          id: 'w3bucket/uploadfile',
+          label: 'Upload Files with API'
         },
       ]
+    },
+    {
+      type: 'doc',
+      id: 'w3auth',
+      label: 'W3Auth'
+    },
+    {
+      type: 'doc',
+      id: 'toolkits',
+      label: 'Cloud3 Toolkits'
     }
   ]
 };
