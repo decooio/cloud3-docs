@@ -16,15 +16,15 @@ In Cloud3, we use `W3Bucket`, `W3Buket NFT`, or `W3BKT` interchangeably, as W3Bu
 
 ## Simple Facts to Know about W3Buckets  
 
-1) It’s a NFT -- Each W3Bucket is an [ERC721](https://eips.ethereum.org/EIPS/eip-721) NFT token (with symbol name *W3BKT*) that can be minted, transferred, and traded on NFT marketplaces like [OpenSea](https://opensea.io).
-2) All user rights and benefits belong to the current NFT holder. Everything goes with the NFT.
-3) The NFT can be freely transferred and traded. Everyone with an ethereum account can mint new buckets via crypto payments to the contract.
-4) Each NFT is endowed with two attributes, the bucket type and the bucket size. Currently we have only one bucket type, which is the `Permanent W3Bucket`. All the following features are applicable to this type.
-5) Each W3Bucket has a unique `IPNS name`, born with the NFT and stored in the metadata, permanently and immutably points to the file history (the file list). The file history is an IPFS file that can be consistently updated with the use of W3Bucket.
-6) Each W3Bucket guarantees files stored inside with permanent (or very long-term) persistence on IPFS as long as the upper limit of the size has not been reached. 
-7) W3Bucket can be accessed (user storing new files) via WebUI or API calling with W3Auth: the user who holds the NFT is asked to sign a typed/structured message (referring `ERC-712`) to get accessed to uploading new files into the bucket. 
-8) All metadata, including the `.json` file and NFT image, are stored decentralized on IPFS.
-9) All files, including metadata and file history/file list, can be retrieved from any IPFS gateway or IPFS node.  
+- It’s a NFT -- Each W3Bucket is an [ERC721](https://eips.ethereum.org/EIPS/eip-721) NFT token (with symbol name *W3BKT*) that can be minted, transferred, and traded on NFT marketplaces like [OpenSea](https://opensea.io).
+- All user rights and benefits belong to the current NFT holder. Everything goes with the NFT.
+- The NFT can be freely transferred and traded. Everyone with an ethereum account can mint new buckets via crypto payments to the contract.
+- Each NFT is endowed with two attributes, the bucket type and the bucket size. Currently we have only one bucket type, which is the `Permanent W3Bucket`. All the following features are applicable to this type.
+- Each W3Bucket has a unique `IPNS name`, born with the NFT and stored in the metadata, permanently and immutably points to the file history (the file list). The file history is an IPFS file that can be consistently updated with the use of W3Bucket.
+- Each W3Bucket guarantees files stored inside with permanent (or very long-term) persistence on IPFS as long as the upper limit of the size has not been reached. 
+- W3Bucket can be accessed (user storing new files) via WebUI or API calling with W3Auth: the user who holds the NFT is asked to sign a typed/structured message (referring `ERC-712`) to get accessed to uploading new files into the bucket. 
+- All metadata, including the `.json` file and NFT image, are stored decentralized on IPFS.
+- All files, including metadata and file history/file list, can be retrieved from any IPFS gateway or IPFS node.  
 
 ## Q & A about W3Bucket  
 
