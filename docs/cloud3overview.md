@@ -1,6 +1,7 @@
 ---
 id: cloud3overview
 title: ''
+slug: /
 hide_table_of_contents: false
 ---
 
