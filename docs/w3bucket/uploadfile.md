@@ -1,5 +1,5 @@
 ---
-id: w3bucket/uploadfile
+id: uploadfile
 title: ''
 hide_table_of_contents: false
 ---

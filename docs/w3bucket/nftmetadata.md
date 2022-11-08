@@ -1,5 +1,5 @@
 ---
-id: w3bucket/nftmetadata
+id: nftmetadata
 title: ''
 hide_table_of_contents: false
 ---

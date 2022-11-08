@@ -1,5 +1,5 @@
 ---
-id: w3bucket/aboutnft
+id: aboutnft
 title: ''
 hide_table_of_contents: false
 ---
