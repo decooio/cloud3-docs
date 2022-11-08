@@ -4,6 +4,8 @@ title: ''
 hide_table_of_contents: false
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 ## Introduction
 
 Once minted, you could directly upload files to a W3Bucket via Http API.
