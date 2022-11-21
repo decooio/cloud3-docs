@@ -31,7 +31,7 @@ $ curl --location --request POST 'https://<GATEWAY_HOST>/api/v0/add?pin=true' \
 ## Pin with CID
 
 ```sh
-$ curl --location --request POST 'https://beta-pin.cloud3.cc/psa/pins' \
+$ curl --location --request POST 'https://pin.cloud3.cc/psa/pins' \
 --header 'Authorization: Bearer <W3AUTH_TOKEN>' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -39,6 +39,3 @@ $ curl --location --request POST 'https://beta-pin.cloud3.cc/psa/pins' \
     "name": "<FILE_NAME>"
 }'
 ```
-
-
-
