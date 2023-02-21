@@ -8,9 +8,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Introduction
 
-**W3Auth Tokens** are Http Bearer Tokens used to authentication against Cloud3 Http APIs.
+**W3Auth Tokens** are Http Bearer Tokens used to authentication against Crust Cloud Http APIs.
 
-The format of Cloud3 Http API headers is:
+The format of Crust Cloud Http API headers is:
 
 ```
 Authorization: Bearer <W3Auth Token>
