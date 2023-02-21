@@ -8,11 +8,11 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## What is W3Bucket?  
 
-Cloud3 is a Web3 Cloud Storage solution where you can store your files in IPFS W3Bucket and you are granted with: 1) decentralized storage. 2) guaranteed storage by decentralized protocols. 3) all the files stored in W3Bucket are alive on IPFS, or 100% IPFS-compatible. 
+Crust Cloud is a Web3 Cloud Storage solution where you can store your files in IPFS W3Bucket and you are granted with: 1) decentralized storage. 2) guaranteed storage by decentralized protocols. 3) all the files stored in W3Bucket are alive on IPFS, or 100% IPFS-compatible. 
 
-Cloud3 define what cloud storage should look like in Web3 - **Every storage bucket is a NFT**.
+Crust Cloud define what cloud storage should look like in Web3 - **Every storage bucket is a NFT**.
 
-In Cloud3, we use `W3Bucket`, `W3Buket NFT`, or `W3BKT` interchangeably, as W3Buckets are all tokenized as mintable and transferrable NFTs.  
+In Crust Cloud, we use `W3Bucket`, `W3Buket NFT`, or `W3BKT` interchangeably, as W3Buckets are all tokenized as mintable and transferrable NFTs.  
 
 ## Simple Facts to Know about W3Buckets  
 
@@ -35,7 +35,7 @@ Every file stored in W3Bucket will be guaranteed with at least 3 IPFS replicas, 
 Every W3Bucket NFT will be given several immutable attributes in the metadata when minted, including: the bucket type and size information, a unique bucket identifier, a unique `IPNS name` that points to the bucket history (which also serves as the file list), a profile image that indicates all the above information. The metadata is permanently immutable and be store decentralized on IPFS.
 
 **What happens if I transfer my W3Bucket to someone else?**  
-All user rights and benefits belong to the current NFT holder. Everything goes with the NFT. Cloud3 guarantees this by the innovative NFT-gated W3Auth scheme. So if you transfer the W3Bucket to someone else, you can no longer use this W3Bucket.
+All user rights and benefits belong to the current NFT holder. Everything goes with the NFT. Crust Cloud guarantees this by the innovative NFT-gated W3Auth scheme. So if you transfer the W3Bucket to someone else, you can no longer use this W3Bucket.
 
 **How can I access my W3Bucket?**  
 W3Bucket can be access via WebUI or API calling with NFT-gated W3Auth: the user who holds the NFT will be asked to sign a typed/structured message (compatible to `ERC-712`) to get accessed to uploading new files into the bucket.
