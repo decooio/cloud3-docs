@@ -19,7 +19,7 @@ Below is a sample of *W3BKT NFT* metadata:
 ```json
 {
   "name": "W3BKT (100GB, lnv0v8, O)",
-  "description": "This is a Web3 Bucket NFT (W3Bucket) that guarantees decentralized, immutable and timeless file storage by Cloud3.\n\n**W3Bucket Type**: Original\n\n**W3Bucket Size**: 100GB\n\n**W3Bucket IPNS**: k51qzi5uqu5dlvj2baxnqndepeb86cbk3ng7n3i46uzyxzyqj2xjonzllnv0v8",
+  "description": "This is a Web3 Bucket NFT (W3Bucket) that guarantees decentralized, immutable and timeless file storage by Crust Cloud.\n\n**W3Bucket Type**: Original\n\n**W3Bucket Size**: 100GB\n\n**W3Bucket IPNS**: k51qzi5uqu5dlvj2baxnqndepeb86cbk3ng7n3i46uzyxzyqj2xjonzllnv0v8",
   "image": "ipfs://QmVvigK7jfLyHcDjnNYr2mAReFW9FCFWf41UNB9tbK8rWw",
   "external_url": "https://ipfs-scan.io?cid=QmVvigK7jfLyHcDjnNYr2mAReFW9FCFWf41UNB9tbK8rWw",
   "file_history": "ipns://k51qzi5uqu5dktricedv5isy1c69oc6i7q15p7lzhkgyyarkdgz350emmvwnwa",
