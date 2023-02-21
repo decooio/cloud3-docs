@@ -6,9 +6,9 @@ hide_table_of_contents: false
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-## Introduction to Cloud3 Toolkits
+## Introduction to Crust Cloud Toolkits
 
-Cloud3 provides toolkits to better serve developers and users based on IPFS and Crust Network.  
+Crust Cloud provides toolkits to better serve developers and users based on IPFS and Crust Network.  
 
 Toolkits now includes:  
 - [IPFS Scan](https://ipfs-scan.io)  
