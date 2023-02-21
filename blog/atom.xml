@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://docs.cloud3.cc/blog</id>
-    <title>Cloud3 Documentation Blog</title>
+    <title>Crust Cloud Documentation Blog</title>
     <updated>2019-05-30T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://docs.cloud3.cc/blog"/>
-    <subtitle>Cloud3 Documentation Blog</subtitle>
+    <subtitle>Crust Cloud Documentation Blog</subtitle>
     <icon>https://docs.cloud3.cc/img/fav.png</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
