@@ -28,7 +28,7 @@ module.exports = {
     {
       type: 'doc',
       id: 'cloud3overview',
-      label: 'Cloud3 Overview'
+      label: 'Crust Cloud Overview'
     },
     {
       type: 'category',
@@ -60,7 +60,7 @@ module.exports = {
     {
       type: 'doc',
       id: 'toolkits',
-      label: 'Cloud3 Toolkits'
+      label: 'Crust Cloud Toolkits'
     }
   ]
 };
