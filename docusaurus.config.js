@@ -1,6 +1,6 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Cloud3 Documentation',
+  title: 'Crust Cloud Documentation',
   tagline: 'Store in IPFS W3Bucket, Decentralized, Guaranteed & Alive.',
   url: 'https://docs.cloud3.cc',
   baseUrl: '/',
@@ -16,7 +16,7 @@ module.exports = {
     navbar: {
       title: '',
       logo: {
-        alt: 'Cloud3 Logo',
+        alt: 'Crust Cloud Logo',
         src: 'img/logo.svg',
       },
     },

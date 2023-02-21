@@ -74,7 +74,7 @@ where
   - `effectiveTimestamp`: Unix timestamp (seconds since 1970-01-01 00:00:00 UTC) when the signature will be valid from
   - `expirationTimestamp`: Unix timestamp  (seconds since 1970-01-01 00:00:00 UTC) when the signature will expire. `0` for never expire
 
-Cloud3 API services will perform a series validations against a W3Auth Token:
+Crust Cloud API services will perform a series validations against a W3Auth Token:
 
 - Verify `signature` is signed by `data.message.signingAddress`
 - Verify `data.message.signingAddress` is the owner of NFT token specified by `data.message.tokenAddress` and `data.message.tokenId`
