@@ -43,7 +43,7 @@ Below is a sample *typed data* to sign:
     description: 'Sign for W3 Bucket Access Authentication',
     signingAddress: '0x2E189548D45E24A84CDD8270B5A38071B4dA325D',
     tokenAddress: '0xB0B0b0b0b0b0B000000000000000000000000000',
-    tokenID: '1000001',
+    tokenId: '1000001',
     effectiveTimestamp: 1665386666,
     expirationTimestamp: 0
   },
@@ -121,7 +121,30 @@ const typedData = {
 };
 
 // Sign
+
+
 const signature = await provider.getSigner(account)._signTypedData(typedData.domain, typedData.types, typedData.message);
+
+/**
+ * Sign use @metamask/eth-sig-util
+ * 
+ * import { signTypedData, SignTypedDataVersion } from "@metamask/eth-sig-util"
+ * 
+ * const dataForMetaMask = {
+ *  ...data,
+ *  types: {
+ *    ...data.types,
+ *    EIP712Domain: [
+ *      { name: "name", type: "string" },
+ *      { name: "version", type: "string" },
+ *      { name: "chainId", type: "uint256" },
+ *      { name: "verifyingContract", type: "address" }
+ *    ]
+ *  }
+ * }
+ * const signature = signTypedData({ privateKey, data: dataForMetaMask, version: SignTypedDataVersion.V4})
+ */
+
 console.log('signature', signature);
 
 // Verify Signature
